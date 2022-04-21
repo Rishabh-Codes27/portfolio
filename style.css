@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body{
+    background-color: #808080;
+}
+
+.container{
+    width: 100%;
+    font-family: Kumbh Sans;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: center;
+}
+
+#main-header{
+    width: 80%;
+    background-color: black;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Kumbh Sans;
+    font-size: 22px;
+}
+
+#navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: whitesmoke;
+}
+
+.main{
+display: flex;
+justify-items: center;
+align-items: center;
+flex-direction: column;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.body1{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.body1 a{
+    text-decoration:underline;
+    color: whitesmoke;
+}
+
+.body1 a:hover{
+    color: whitesmoke;
+}
+
+.body1 a:visited{
+    color: whitesmoke;
+}
+
+
+.body2{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.body2 a{
+    padding: 10px;
+    background: linear-gradient(to right, grey, black);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.body3{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.body3 a{
+    text-decoration: none;
+    background: none;
+}
+
+@media(max-width:600px){
+	.main{
+		width:100%;
+		float:none;
+	}
+
+}
